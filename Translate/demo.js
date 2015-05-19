@@ -23,6 +23,8 @@ function Demo(jQuery) {
 			lblPlace.translate();
 		});
 		
+	
+		
 		
 		
 		
@@ -30,3 +32,5 @@ function Demo(jQuery) {
 	
 	Load();
 }
+
+Demo($);

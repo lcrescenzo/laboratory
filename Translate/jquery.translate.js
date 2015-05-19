@@ -40,7 +40,7 @@
         return this.each(function () {
             var children = $(this).find("[" + tag + "]");
             if (children.length > 0){
-                children.forEach((element) => {
+                children.each(function (element) {
                     var translation = LoadDataByNamespace(element.attr(tag), getResource(locale));
                     if(translation !== null){
                         element.html(translation);
